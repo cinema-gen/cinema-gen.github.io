@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CINEMA: Coherent Multi-Subject Video Generation via MLLM-Based Guidance</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/project.css" media="screen" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/iconize.css" />
+    <script src="js/google-code-prettify/prettify.js"></script> -->
+  </head>
+
+  <!-- cover -->
+  <section>
+    <div class="jumbotron text-center mt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 style="font-size: 30px;">CINEMA: Coherent Multi-Subject Video Generation via MLLM-Based Guidance
+            </h2>
+            <h4 style="color:#5a6268;">Preprint </h4>
+            <hr>
+            <h6>
+                <a href="https://github.com/cinema-gen" target="_blank">Anonymous Submission</a>
+            <p>
+
+            </p>
+
+            <div class="row justify-content-center">
+              <div class="column">
+                  <p class="mb-5"><a class="btn btn-large btn-light" href="https://arxiv.org/abs/" role="button"  target="_blank">
+                    <i class="fa fa-file"></i> Paper</a> </p>
+              </div>
+              <div class="column">
+                  <p class="mb-5"><a class="btn btn-large btn-light" href="https://youtu.be/30v_7pE6AM8" role="button"  target="_blank">
+                    <i class="fa fa-file"></i> Video</a> </p>
+              </div>
+              <div class="column">
+                  <p class="mb-5"><a class="btn btn-large btn-light" href="https://github.com/cinema-gen" role="button"  target="_blank">
+                    <i class="fa fa-github-alt"></i> Code</a> </p>
+              </div>
+              <div class="column">
+                  <p class="mb-5"><a class="btn btn-large btn-light" href="" role="button"  target="_blank">
+                    <i class="fa fa-desktop"></i> Live Demo (To be released) </a> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- abstract -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+
+        <h3>Overview</h3>
+        <hr style="margin-top:0px">
+          <h6 style="color:#8899a5"> We introduce CINEMA, a video generation framework conditioned on a set of reference images and text prompts.</h6>
+
+          <video width="80%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+              <source src="video/teaser.mp4" type="video/mp4">
+          </video>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <!-- abstract -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+
+          <h3>Abstract</h3>
+            <hr style="margin-top:0px">
+
+          <p class="text-left">
+            Video generation has witnessed remarkable progress with the advent of deep generative models, particularly diffusion models. While existing methods excel in generating high-quality videos from text prompts or single images, personalized multi-subject video generation remains a largely unexplored challenge.
+            This task involves synthesizing videos that incorporate multiple distinct subjects, each defined by separate reference images, while ensuring temporal and spatial consistency. Current approaches primarily rely on mapping subject images to keywords in text prompts, which introduces ambiguity and limits their ability to model subject relationships effectively.
+            In this paper, we propose CINEMA, a novel framework for coherent multi-subject video generation by leveraging Multimodal Large Language Model (MLLM). Our approach eliminates the need for explicit correspondences between subject images and text entities, mitigating ambiguity and reducing annotation effort.
+            By leveraging MLLM to interpret subject relationships, our method facilitates scalability, enabling the use of large and diverse datasets for training. Furthermore, our framework can be conditioned on varying numbers of subjects, offering greater flexibility in personalized content creation.
+            Through extensive evaluations, we demonstrate that our approach significantly improves subject consistency, and overall video coherence, paving the way for advanced applications in storytelling, interactive media, and personalized video generation.
+          </p>
+	  <iframe width="960" height="540" src="https://www.youtube.com/embed/30v_7pE6AM8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+            <h2>Our pipeline</h2>
+            <hr style="margin-top:0px">
+            <p class="text-left"></p>
+            In this paper, we introduce a novel framework for multi-subject video generation that leverages Multimodal Large Language Model (MLLM) guidance to ensure coherence and subject consistency.
+            We propose to exploit the comprehension capability of MLLM to interpret and orchestrate the relationships between multiple subjects, enabling the generation of personalized, multi-subject videos that are both visually coherent and contextually meaningful.
+            </p>            
+            <img src="img/pipeline.png" alt="Our pipeline" width="90%">
+
+          <p class="text-center">
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  
+
+
+
+  <!-- citing -->
+  <div class="container">
+    <div class="row ">
+      <div class="col-12">
+          <h3>Citation</h3>
+          <hr style="margin-top:0px">
+              <pre style="background-color: #e9eeef;padding: 1.25em 1.5em">
+<code>@article{xxx2025cinema,
+    title={CINEMA: Coherent Multi-Subject Video Generation via MLLM-Based Guidance},
+    author={Anonymous},
+    journal={Preprint},
+    year={2025}
+}</code>
+              </pre>
+          <hr>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center" style="margin-bottom:10px">
+      Thanks to <a href="https://lioryariv.github.io/" target="_blank">Lior Yariv</a> and <a href="https://liuyuan-pal.github.io/SyncDreamer/" target="_blank">SyncDreamer</a> for the website template.
+  </footer>
+
+</body>
+</html>
